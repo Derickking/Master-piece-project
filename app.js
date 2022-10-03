@@ -1,3 +1,4 @@
+//DOM elements
 const inputs = document.querySelectorAll(".input");
 
 function focusFunc() {
@@ -38,6 +39,7 @@ document.addEventListener('scroll', () => {
 		header.style.backgroundColor = 'transparent';
 	}
 });
+
 
 menu_item.forEach((item) => {
 	item.addEventListener('click', () => {
